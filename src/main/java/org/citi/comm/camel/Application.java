@@ -78,7 +78,7 @@ public class Application{
     }
 
     @Component
-    class RestApiFromTwilio extends RouteBuilder {
+    class RestClientBankerRouter extends RouteBuilder {
     
         @Override
         public void configure() throws Exception {   
